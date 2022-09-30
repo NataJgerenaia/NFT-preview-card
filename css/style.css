@@ -21,7 +21,7 @@
     position:relative;
 }
 .image-hover {
-    top: 24px;
+    top: 33px;
     position: absolute;
     width: 302px;
     height: 302px;
@@ -137,5 +137,8 @@ span:hover {
 @media screen and (min-width:1500px) {
     .card{
         margin-top: 152px ;
+    }
+    .image-hover {
+        margin-top: 152px;
     }
 }
